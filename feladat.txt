@@ -1,0 +1,83 @@
+http://infojegyzet.hu/webszerkesztes/mysql/pizza/
+Feladat
+Egy pizza-rendeléseket nyilvántartó szoftver a következő adattáblákat tartalmazza:
+
+		Pizza		Futar		Vevo		Rendeles	Tetel
+		-----		-----		----		--------	-----
+				
+		Pazon		Fazon		Vazon		Razon		Razon
+		Pnev		Fnev		Vnev		Vazon		Pazon
+		Par		  Ftel		Vcim		Fazon		Db
+								          Idopont	
+
+
+	ahol
+
+		Pazon	N 3	a pizza azonosítója
+		Pnev	C 15	a pizza neve
+		Par	N 4	a pizza ára
+		Fazon	N 3	a pizzafutár azonosítója
+		Fnev	C 25	a pizzafutár neve
+		Ftel	C 12	a pizzafutár telefonszáma
+		Vazon	N 6	a megrendelő azonosítója
+		Vnev	C 30	a megrendelő neve
+		Vcim	C 30	a megrendelő lakcíme
+		Razon	N 8	a rendelés sorszáma
+		Idopont	DT	a rendelés ideje
+		Db	N 3	egy rendelési tétel darabszáma
+
+Az adatbázis az alábbi linkről tölthető le:
+pizza.sql
+SQL lekérdezésekkel adjon választ az alábbi kérdésekre. Az elkészült és működő lekérdezéseket mentse el egy .txt szöveges fájlba a kérdésekhez tartozó sorszám feltüntetésével.
+
+Kérdések:
+Hogy hívják az egyes pizzafutárokat?
+Milyen pizzák közül lehet rendelni, és mennyibe kerülnek?
+Mennyibe kerül átlagosan egy pizza?
+Mely pizzák olcsóbbak 1000 Ft-nál?
+Ki szállította házhoz az első (egyes sorszámú) rendelést?
+Kik rendeltek pizzát délelőtt?
+Milyen pizzákat evett Morgó?
+Ki szállított házhoz Tudornak?
+Az egyes rendelések alkalmával ki kinek szállított házhoz?
+Mennyit költött pizzára Vidor?
+Hány alkalommal rendelt Sorrento pizzát Kuka?
+Hány pizzát evett Szende?
+Hányszor rendelt pizzát Hapci?
+Hány darab Hawaii pizza fogyott összesen?
+Mennyit költöttek pizzára az egyes vevők?
+Mennyit vettek az egyes vevők a különböző pizzákból?
+Ki hány pizzát szállított házhoz az egyes napokon?
+Ki hány pizzát rendelt az egyes napokon?
+Mennyi volt a bevétel az egyes napokon?
+Hány pizza fogyott naponta?
+Mennyi pizza fogyott átlagosan naponta?
+Hány pizzát rendeltek átlagosan egyszerre?
+Hány házhoz szállítása volt az egyes futároknak?
+A fogyasztás alapján mi a pizzák népszerűségi sorrendje?
+A rendelések összértéke alapján mi a vevők sorrendje?
+Melyik a legdrágább pizza?
+Ki szállította házhoz a legtöbb pizzát?
+Ki ette a legtöbb pizzát?
+Melyik nap fogyott a legtöbb pizza?
+Melyik nap fogyott a legtöbb Hawaii pizza?
+Hány pizza fogyott a legforgalmasabb napon?
+Mennyi volt a bevétel a legjobb napon?
+Mi Szundi kedvenc pizzája?
+Kik rendeltek pizzát a nyitás napján?
+Mely pizzák olcsóbbak a Capricciosa pizzánál?
+Mely pizzák drágábbak az átlagosnál?
+Mely pizza ára van legközelebb az átlagárhoz?
+Mely futárok mentek többet házhoz az átlagosnál?
+Kik rendeltek legalább háromszor annyi pizzát, mint egy átlagos vevő?
+Kik szállítottak házhoz legalább tízszer?
+Mely pizzából fogyott legalább 50 db?
+Mely vevők nem rendeltek legalább háromszor?
+Kik rendeltek legalább 5 Hawaii pizzát?
+Milyen pizzából nem rendelt soha Tudor?
+Van-e olyan pizza, amelyből soha nem rendeltek?
+Ki nem rendelt soha Vesuvio pizzát?
+Mely pizzafutárokkal nem találkoztak az egyes vevők?
+Kik rendeltek több Sorrento pizzát, mint Vesuviot?
+Kik rendeltek legalább 5 Capricciosa vagy 8 Frutti di Mare pizzát?
+Kik rendeltek kétfajta pizzából is legalább 10 darabot?
